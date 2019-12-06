@@ -1,0 +1,14 @@
+-- variable --
+
+function _init()
+	mystring = 'hello, world!'
+end
+
+function _draw()
+	cls(0)
+	print(mystring, 37, 55, 250)
+end
+
+function _update()
+
+end
